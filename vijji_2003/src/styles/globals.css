@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.chat-box {
+    max-height: 400px;
+    overflow-y: scroll;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+input {
+    width: calc(100% - 70px);
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+}
